@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- goolge-font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>Edu bangla language A3</title>
+  <!-- bootstrap-link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <style>
+    .carousel-text {
+      bottom: 25%;
+    }
+
+    .single-item::before {
+      background-color: black;
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      opacity: .6;
+      z-index: 0;
+    }
+    .single-partner{
+      width: 90px;
+      margin-right: 20px;
+    }
+
+    @media screen and (max-width:576px) {
+      .carousel-text {
+        bottom: 0;
+        top: -15px;
+      }
+
+      .title {
+        font-weight: 500;
+        font: 25px;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <header class="mb-lg-5 mb-md-3 mb-1">
+    <!-- nav-section- -->
+    <section class="">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h1><span class="text-success">Edu-bangla</span> <span>language</span></h1>
+          </a>
+          <div class="collapse navbar-collapse " id="navbarToggler">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link active  fw-semibold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold"> Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold"> Success</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold"> Register</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-primary fw-semibold px-3" type="submit">Register</button>
+            </form>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </section>
+    <!-- nav-section-end -->
+
+    <!-- caroules-section-start -->
+    <section class="container">
+      <div id="slide-carousel" class="carousel slide" data-bs-ride="false">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active single-item">
+            <img src="./assets/images/cover/cover-1.png" class="d-block w-100 img-fluid" style="height: 100vh;"
+              alt="...">
+            <div class="carousel-text carousel-caption d-md-block">
+              <h1 class="fw-bold  my-md-4 my-sm-1 title">Get Learn Bangla <br> language</h1>
+              <p class="my-0">If you want to learn bangla you should have learn live para/Garam and catch fish.<br>so
+                let's go to learn bangla and visit Para/Garam</p>
+              <a href=""
+                class="bg-primary text-white text-decoration-none py-2 px-3 my-lg-4 my-0 d-inline-block rounded-2 ">Get
+                started</a>
+            </div>
+          </div>
+          <div class="carousel-item single-item">
+            <img src="./assets/images/cover/cover-2.jpg" class="d-block w-100 img-fluid" style="height: 100vh;"
+              alt="...">
+            <div class="carousel-text carousel-caption d-md-block">
+              <h1 class="fw-bold  my-md-4 my-sm-1 title">Get Learn Bangla <br> language</h1>
+              <p class="my-0">If you want to learn bangla you should have learn live para/Garam and catch fish.<br>so
+                let's go to learn bangla and visit Para/Garam</p>
+              <a href=""
+                class="bg-primary text-white text-decoration-none py-2 px-3 my-lg-4 my-0 d-inline-block rounded-2 ">Get
+                started</a>
+            </div>
+          </div>
+          <div class="carousel-item  single-item">
+            <img src="./assets/images/cover/cover-3.jpg" class="d-block w-100 img-fluid" style="height: 100vh;"
+              alt="...">
+            <div class="carousel-text carousel-caption d-md-block">
+              <h1 class="fw-bold  my-md-4 my-sm-1 title">Get Learn Bangla <br> language</h1>
+              <p class="my-0">If you want to learn bangla you should have learn live para/Garam and catch fish.<br>so
+                let's go to learn bangla and visit Para/Garam</p>
+              <a href=""
+                class="bg-primary text-white text-decoration-none py-2 px-3 my-lg-4 my-0 d-inline-block rounded-2 ">Get
+                started</a>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- caroules-section-end -->
+  </header>
+  <main>
+    <section class="container">
+      <div class="section-title text-center my-2 my-md-4 my-lg-5">
+        <h1>Discover Our Popular <br> Courses</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable <br>content of a page when
+          looking at its layout.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 g-4">
+        <div class="col">
+          <div class="d-lg-flex d-flex flex-column flex-lg-row flex-md-row  d-md-flex justify-content-between align-items-center border border-1 rounded-2">
+            <img class="course-thubmil" src="./assets/images/course/course-1.png" style="height:150px;" alt="">
+            <div class="course-title px-lg-4 p-4 p-lg-0 p-md-0 ">
+              <h4>Fundamental Of UI/UX Design</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+              <h5 class="text-primary">Price : 20$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-lg-flex d-flex flex-column flex-lg-row flex-md-row  d-md-flex justify-content-between align-items-center border border-1 rounded-2">
+            <img class="course-thubmil" src="./assets/images/course/course-2.png" style="height:150px;" alt="">
+            <div class="course-title px-lg-4 p-4 p-lg-0 p-md-0">
+              <h4>Fundamental Of UI/UX Design</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+              <h5 class="text-primary">Price : 20$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-lg-flex d-flex flex-column flex-lg-row flex-md-row d-md-flex justify-content-between align-items-center border border-1 rounded-2">
+            <img class="course-thubmil" src="./assets/images/course/course-3.png" style="height:150px;" alt="">
+            <div class="course-title px-lg-4 p-4 p-lg-0 p-md-0">
+              <h4>Fundamental Of UI/UX Design</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+              <h5 class="text-primary">Price : 20$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-lg-flex d-flex flex-column flex-lg-row flex-md-row d-md-flex justify-content-between align-items-center border border-1 rounded-2">
+            <img class="course-thubmil" src="./assets/images/course/course-4.png" style="height:150px;" alt="">
+            <div class="course-title px-lg-4 p-4 p-lg-0 p-md-0">
+              <h4>Fundamental Of UI/UX Design</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+              <h5 class="text-primary">Price : 20$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-lg-flex d-flex flex-column flex-lg-row flex-md-row d-md-flex justify-content-between align-items-center border border-1 rounded-2">
+            <img class="course-thubmil" src="./assets/images/course/course-5.png" style="height:150px;" alt="">
+            <div class="course-title px-lg-4 p-4 p-lg-0 p-md-0">
+              <h4>Fundamental Of UI/UX Design</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+              <h5 class="text-primary">Price : 20$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-lg-flex d-flex flex-column flex-lg-row flex-md-row d-md-flex justify-content-between align-items-center border border-1 rounded-2">
+            <img class="course-thubmil" src="./assets/images/course/course-6.png" style="height:150px;" alt="">
+            <div class="course-title px-lg-4 p-4 p-lg-0 p-md-0">
+              <h4>Fundamental Of UI/UX Design</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+              <h5 class="text-primary">Price : 20$</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="view-course text-center"><a href=""
+          class="btn bg-primary py-3 px-4 my-5 text-lg-center border text-dark d-inline-block text-white fw-semibold">See
+          more course</a>
+      </div>
+    </section>
+
+    <!-- card-section -->
+    <section class="container">
+      <div class="card mb-3 bg-info bg-opacity-10 border-0" style="">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-6">
+            <img src="./assets/images/working.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6 ">
+            <div class="card-body ms-4">
+              <h2 class="card-title">Explore The elearning <br> Institute</h2>
+              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+              </p>
+              <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                to repeat predefined.</p>
+
+              <div class="member d-flex">
+                <div class="member-list me-md-5 ">
+                  <h3>3.2K+</h3>
+                  <p>online course</p>
+                </div>
+                <div class="member-list me-md-5">
+                  <h3>600K+</h3>
+                  <p>Expert member</p>
+                </div>
+                <div class="member-list me-md-5">
+                  <h3>1K+</h3>
+                  <p>Rating & Review</p>
+                </div>
+              </div>
+              <a href="" class="btn bg-primary rounded-2 text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- working-section -->
+    <section class="container bg-primary my-5 py-5 bg-opacity-75">
+      <div class="row align-items-center">
+        <div class="col-md-5 offset-md-1">
+          <h1 class="text-white">Ready to join?</h1>
+          <p class="text-white">It is a long established fact that a reader will be distracted by the readable content
+            of a page when looking at its layout</p>
+        </div>
+        <div class="col-md-3 offset-md-3  ">
+          <button type="button" class="btn text-primary  bg-white rounded-2 fw-bold px-5 border-0 py-2" data-bs-toggle="modal" data-bs-target="#first-Modal"
+            data-bs-whatever="@Gmail">Register</button>
+
+          <div class="modal fade" id="first-Modal" tabindex="-1" aria-labelledby="firstModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="firstModalLabel">Login Now</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="email-name" class="col-form-label">Please enter your email</label>
+                      <input type="email" class="form-control" id="email-name" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                      <label for="password-text" class="col-form-label">Password</label>
+                      <input type="password" id="password-text" class="form-control" placeholder="Password">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+                  <!-- accrodion-section end-->
+    
+
+    <section class="container my-5">
+      <div class="trusted-title text-center my-5">
+        <h1>Trusted by over 800+ companies</h1>
+      </div>
+      <div class="trusted-partner row row-cols-6 g-3 justify-content-between  align-items-center">
+        <div class="single-partner col"><img src="./assets/images/company/company-1.png" alt=""></div>
+        <div class="single-partner col"><img src="./assets/images/company/company-2.png" alt=""></div>
+        <div class="single-partner col"><img src="./assets/images/company/company-3.png" alt=""></div>
+        <div class="single-partner col"><img src="./assets/images/company/company-4.png" alt=""></div>
+        <div class="single-partner col"><img src="./assets/images/company/company-5.png" alt=""></div>
+        <div class="single-partner col"><img src="./assets/images/company/company-6.png" alt=""></div>
+      </div> 
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
